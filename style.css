@@ -1,0 +1,80 @@
+body,html{
+	height: 100%;
+	width: 100%;
+}
+.nav{
+    color: black;
+}
+/* .nav-link{
+    padding: 10px 40px 0;
+} */
+.navbar li a{
+    margin: 10px 40px 0;
+}
+.navbar-brand img{
+    background-color: black;
+}
+.navbar-brand{
+    margin: 0 1rem;
+}
+.navbar-toggler{
+    margin: 0 1rem;
+}
+.navbar-nav a{
+    color: black;
+    font-size: large;
+}
+.navbar-nav a:hover{
+    color: dimgrey;
+}
+.navbar a img{
+    background-color: black;
+}
+.carousel img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.carousel-caption{
+    position: absolute;
+    top: 40%;
+}
+.carousel-caption .display-2{
+    font-weight: 600;
+}
+.carousel-caption span{
+    color:slategray;
+}
+
+
+.center{
+    align-items: center;
+}
+
+@media(max-width: 1099px)
+{
+    .navbar li a{
+        margin: 10px 20px 0;
+    } 
+}
+
+@media(max-width: 991px)
+{
+    .navbar a img{
+        margin: auto 0;
+    } 
+}
+
+ @media(max-width: 799px)
+{
+    .carousel-caption button{
+        font-size: medium ;
+    }
+}
+
+@media(max-width: 599px)
+{
+.carousel-caption{
+ 	top: 30%;
+ }
+}
